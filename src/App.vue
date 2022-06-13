@@ -1,26 +1,49 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="main">
+    <cell-phone />
+    <login-div />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CellPhone from "./components/CellPhone.vue";
+import LoginDiv from "./components/LoginDiv.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CellPhone,
+    LoginDiv,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+ 
 }
 </style>
