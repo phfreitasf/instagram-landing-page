@@ -1,24 +1,7 @@
-# instagram-landing-page
+# Clone página de login Instagram
 
-## Project setup
-```
-npm install
-```
+Página criada para práticar elementos flexbox do css
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![demo 1](https://github.com/phfreitasf/instagram-landing-page/blob/master/src/demo/insta1.png)
+![demo 2](https://github.com/phfreitasf/instagram-landing-page/blob/master/src/demo/insta2.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
